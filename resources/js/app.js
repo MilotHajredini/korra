@@ -7,9 +7,14 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-import Buefy from 'buefy'
+import Buefy from 'buefy';
 
-Vue.use(Buefy)
+Vue.use(Buefy);
+
+var app = new Vue({
+    el:'#app',
+    data:{}
+});
 
 /**
  * The following block of code may be used to automatically register your

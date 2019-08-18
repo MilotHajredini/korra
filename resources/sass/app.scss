@@ -6,8 +6,16 @@
 @import '~@fortawesome/fontawesome-free/scss/brands';
 
 // Variables
-@import 'variables';
+@import '_variables';
 
 // Bulma
 @import 'node_modules/bulma/bulma';
-@import 'node_modules/buefy/src/scss/buefy'
+@import 'node_modules/buefy/src/scss/buefy';
+@import 'node_modules/bulma-divider/src/sass/index';
+
+//custom sass
+@import 'overrides';
+@import "helpers";
+@import 'styles';
+@import 'manage';
+
